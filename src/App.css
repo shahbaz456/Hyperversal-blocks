@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.privacyPolicy{
+  width: '80%';
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Active
+{
+  color: red !important;
+}
+.Links
+{
+  color: aliceblue !important;
+  margin-right: 20px !important;
+}
+.footer{
+  background-color: #53585C;
+  color: white;
+}
+.footer p{
+  font-size: 16px !important;
+}
+.footer{
+  font-size: 16px !important;
+}
+.copy{
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.footerLinks
+{
+  color: #808080;;
+  display: block;
+  width: 100%;
+}
+.footerLinks:hover
+{
+  color: #ed2232;
+  transition-duration: .5s;
+  transition-timing-function: linear;    
+}
+.footerActiveLinks{
+  color: #ed2232;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* this will center the content horizontally */
+  justify-content: center; /* this will center the content vertically */
+  text-align: center; /* this will center the text inside its container */
+}
+
+/* Styles for the top information */
+.top-information {
+  background-color: #B1A8B9;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Styles for the sections */
+.section {
+  background-color: #FFFFFF;
+  padding: 20px;
+  /* Your other styles for sections */
+}

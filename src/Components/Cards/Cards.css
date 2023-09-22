@@ -1,0 +1,13 @@
+@media (max-width: 767px) {
+  .card{
+    width: 78%;
+    margin-left: 2rem;
+  }
+    .card h3 {
+      
+      width: 100%;
+  
+    }
+
+  }
+  
